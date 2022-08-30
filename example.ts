@@ -9,7 +9,13 @@ function add(a: number, b: number) {
 
 // Inferred Types
 
+const numbers = [1, 4, 6, 8, 0]
+
 // Union Types
+
+const numbersAndStrings : (string | number)[] = ["Name", 45, "youhoou", 2]
+
+// twitch 1:21
 
 // Objects and Interfaces
 
