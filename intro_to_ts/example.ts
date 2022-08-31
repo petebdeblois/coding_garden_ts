@@ -63,8 +63,35 @@ const you: People = {
 }
 // Classes
 
+class Human { 
+  name: string;
+  dogName: string;
+  favNumber: number;
+
+  constructor(name: string, dogName: string, favNumber: number) {
+    this.name = name;
+    this.dogName = dogName;
+    this.favNumber = favNumber
+  }
+}
+const OGM = new Human("OGM", "No", 3)
+  
+  
+  
 // Generics
 
+function sortItems<T>(items: T[],
+  compareFn: (a: T, b: T) => number
+): T[] {
+  return items.sort(compareFn)
+}
+
+const numberss = [42, 5, 3456, 34, 2, 1, 53]
+
+const sortedNumberss = sortItems<number>(
+  numbers,
+  (a, b) => a - b
+);
 // any, unknown, never
 
 // Type Assertions

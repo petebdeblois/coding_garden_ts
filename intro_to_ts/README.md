@@ -4,7 +4,7 @@
 
 https://www.twitch.tv/videos/1570787565
 
-
+https://www.youtube.com/watch?v=4_xRukD6u9E 
 ---
 
 # Typescript
