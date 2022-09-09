@@ -1,16 +1,25 @@
 
 
 
+npm create vite@latest
+
+npm i -D eslint
+npx eslint --init
+
+npx install-peerdeps --dev eslint-config-airbnb
+npm install -D eslint-config-airbnb-typescript
 
 
-## Cheatsheet
+## [vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) Starter
 
-https://react-typescript-cheatsheet.netlify.app/
+This setup includes:
+* [vite](https://vitejs.dev/)
+* [eslint](https://eslint.org/), [typescript-eslint](https://typescript-eslint.io/), [eslint-airbnb-config](https://github.com/airbnb/javascript), [prettier](https://prettier.io/)
+* [vitest](https://vitest.dev/), [jsdom](https://github.com/jsdom/jsdom), [@testing-library](https://testing-library.com/)
+* [react-router v6](https://reactrouter.com/en/main)
 
-## Create the React app
+# References
 
-`npm create vite@latest`
-
-## install linting
-
-`npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint`
+* https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/
+* https://testing-library.com/docs/queries/about#priority
+* https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
